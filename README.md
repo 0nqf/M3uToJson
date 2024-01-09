@@ -12,5 +12,8 @@ m3u_file = open("#file path","r")
 
 json_file = m3u.convert("m3u_file")
 
-print(json_file) 
+print(json_file) # Print results
+
+save = open("#file path","w")
+save.write(json_file) # Save to file
 ```
