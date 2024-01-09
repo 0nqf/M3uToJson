@@ -10,7 +10,7 @@ from .m3u_json import m3u
 
 m3u_file = open("#file path","r")
 
-json_file = m3u.convert("m3u_file")
+json_file = m3u.convert(m3u_file)
 
 print(json_file) # Print results
 
