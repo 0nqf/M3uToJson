@@ -1,7 +1,7 @@
 # M3uToJson
 Convert m3u file to json
 
-# How to use
+# Python
 
 ```python
 # First, download this repository and include it in your file path
